@@ -1,0 +1,1 @@
+../binutils/configure --target=aarch64-linux-android --host=x86_64-linux-gnu --enable-initfini-array --enable-plugins --enable-threads --disable-nls --prefix=/gcc --enable-gold --enable-fix-cortex-a53-835769 --with-pkgversion="inferno toolchain" CFLAGS="-m64 -O3" CXXFLAGS="-m64 -O3" CPPFLAGS="-m64 -O3"
